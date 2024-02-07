@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Ukesoppgaver</title>
+    <meta charset="utf-8"/>
+    <script>
+        //Oppgave 1
+        function heiVerden(){
+            document.write("Hei verden");
+        }
+        //Oppgave 2
+        function heiVerdenAlert(){
+            alert("Hei verden");
+        }
+        //Oppgave 3
+        function write(data){
+            document.write(data);
+        }
+        //Oppgave 4
+        function writeAlert(data){
+            alert(data);
+        }
+        //Oppgave 5
+        function writeConsole(data){
+            console.log(data);
+        }
+    </script>
+</head>
+<body>
+<h2>Oppgave 1</h2>
+<button onClick="heiVerden();">Klikk meg for Oppgave 1!</button>
+<h2>Oppgave 2</h2>
+<button onClick="heiVerdenAlert();">Klikk meg for Oppgave 2!</button>
+<h2>Oppgave 3</h2>
+<form>
+    <input onChange="write(this.value);" type="text" value=""/>
+</form>
+<h2>Oppgave 4</h2>
+<form>
+    <input onChange="writeAlert(this.value);" type="text" value=""/>
+</form>
+<h2>Oppgave 5</h2>
+<form>
+    <input onChange="writeConsole(this.value);" type="text" value=""/>
+</form>
+</body>
+</html>
